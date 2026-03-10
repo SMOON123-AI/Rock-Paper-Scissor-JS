@@ -89,7 +89,7 @@ function playGame(playerMove) {
   localStorage.setItem('score', JSON.stringify(score));
   
   finalResultElement.innerText=`${result}`;
-  resultElement.innerHTML = `You picked <img src="${playerMove}-emoji.png" class="move-icon"> Computer picked <img src="${computerMove}-emoji.png" class="move-icon">`;
+  resultElement.innerHTML = `You picked <img src="images/${playerMove}-emoji.png" class="move-icon"> Computer picked <img src="images/${computerMove}-emoji.png" class="move-icon">`;
 
   updateScore();
 }
@@ -162,4 +162,5 @@ function auto(){
     clearInterval(autoPlayInterval);
   }
   
+
 }
