@@ -31,6 +31,8 @@ document.querySelector('.auto-play').addEventListener('click',auto)
 
 document.body.addEventListener('keydown', (event) => {
 
+  if(event.repeat) return;
+  
   const key = event.key.toLowerCase();
 
   if (key === 'r') playGame('rock');
@@ -164,3 +166,4 @@ function auto(){
   
 
 }
+
