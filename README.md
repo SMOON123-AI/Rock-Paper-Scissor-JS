@@ -5,7 +5,7 @@ Play against the computer and track your score in real time.
 
 ## Live Demo
 
-https://smoon-123-ai.github.io/rock-paper-scissors-js
+https://smoon123-ai.github.io/Rock-Paper-Scissor-JS/
 
 ## Features
 
