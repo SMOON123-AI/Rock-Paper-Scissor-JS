@@ -31,7 +31,7 @@ document.querySelector('.auto-play').addEventListener('click',auto)
 
 document.body.addEventListener('keydown', (event) => {
 
-  if(event.repeat) return;
+  if(event.ctrlKey) return;
   
   const key = event.key.toLowerCase();
 
@@ -166,4 +166,5 @@ function auto(){
   
 
 }
+
 
