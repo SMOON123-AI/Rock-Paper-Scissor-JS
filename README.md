@@ -5,7 +5,7 @@ Play against the computer and track your score in real time.
 
 ## Live Demo
 
-(After enabling GitHub Pages, paste your link here)
+https://smoon-123-ai.github.io/rock-paper-scissors-js
 
 ## Features
 
@@ -34,7 +34,7 @@ The game logic compares the player's move with the computer's move and updates t
 ## Project Structure
 
 ```
-rock-paper-scissors-js
+Rock-Paper-Scissor-JS
 │
 ├── index.html
 ├── style.css
